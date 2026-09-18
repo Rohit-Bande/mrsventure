@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Production/build output
+dist/
+build/
+.next/
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Runtime uploads
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local development / temporary files
+.playwright-mcp/
+*.zip
+payment-backup-*/
+payment-patch/
+
+# Local screenshots / reference images
+admin-field-gallery-check.png
+home-gallery-section2.png
+home-gallery-section3.png

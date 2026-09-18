@@ -1,0 +1,1 @@
+{"name":"mrs-ventures-complete","version":"1.0.0","private":true,"engines":{"node":">=24 <25"},"scripts":{"setup":"node scripts/run.js setup","dev":"node scripts/run.js dev","build":"node scripts/run.js build","start":"node scripts/run.js start","test":"node scripts/run.js test"}}
