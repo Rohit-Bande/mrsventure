@@ -1492,7 +1492,8 @@ const uploadPackImage = async (event, packIndex) => {
                         <div>
                               <p className="break-all font-sans text-sm font-semibold tracking-wide text-forest-deep select-all">
                                  {o.order_number}
-                              </p>                          <p className="text-xs text-slate-500">{o.customer?.name} • {o.customer?.mobile} • {o.customer?.city}, {o.customer?.state}</p>
+                              </p>
+                          <p className="text-xs text-slate-500">{o.customer?.name} • {o.customer?.mobile} • {o.customer?.city}, {o.customer?.state}</p>
                         </div>
                         <div className="text-right">
                           <p className="font-semibold text-forest-deep">{currency(o.total)}</p>
