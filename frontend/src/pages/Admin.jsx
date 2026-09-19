@@ -1490,8 +1490,9 @@ const uploadPackImage = async (event, packIndex) => {
                     <div key={o.order_number} className="rounded-2xl border border-forest/10 bg-white p-4" data-testid={`admin-order-${o.order_number}`}>
                       <div className="flex flex-wrap items-center justify-between gap-3">
                         <div>
-                          <p className="font-serif text-lg font-semibold text-forest-deep">{o.order_number}</p>
-                          <p className="text-xs text-slate-500">{o.customer?.name} • {o.customer?.mobile} • {o.customer?.city}, {o.customer?.state}</p>
+                              <p className="break-all font-sans text-sm font-semibold tracking-wide text-forest-deep select-all">
+                                 {o.order_number}
+                              </p>                          <p className="text-xs text-slate-500">{o.customer?.name} • {o.customer?.mobile} • {o.customer?.city}, {o.customer?.state}</p>
                         </div>
                         <div className="text-right">
                           <p className="font-semibold text-forest-deep">{currency(o.total)}</p>
