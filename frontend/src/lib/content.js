@@ -141,7 +141,7 @@ export const INSTAGRAM_GRID = [
   IMG + "f8b4fdd93d1a6c4ca0bfd101b418d219c571c99b973fae752fcff61e89e2372b.jpeg",
 ];
 
-export const HERO_IMAGE = "/images/field/Home honey.jpeg";
+export const HERO_IMAGE = "/images/field/Home-honey.jpeg";
 export const LIFESTYLE_IMAGE = "/images/field/honey spoon.jpeg";
 export const HONEY_500_IMAGE = "/images/field/zar.jpeg";
 
