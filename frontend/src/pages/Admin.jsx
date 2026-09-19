@@ -683,7 +683,9 @@ const uploadPackImage = async (event, packIndex) => {
   const removeProduct = async (id) => {
     if (!window.confirm("Delete this product?")) return;
     try { await adminDeleteProduct(token, id); setProducts((prev) => prev.filter((p) => p.id !== id)); toast.success("Deleted"); }
-    catch { toast.error("Delete failed"); }
+    catch (error) {
+  toast.error(error?.response?.data?.detail || "Delete failed");
+}
   };
 
   const setNP = (k, v) => setNewProduct((p) => ({ ...p, [k]: v }));
@@ -766,9 +768,9 @@ const uploadPackImage = async (event, packIndex) => {
       setShowAdd(false);
       setNewProduct(emptyProduct);
       load(token);
-    } catch {
-      toast.error("Could not add product");
-    } finally { setSaving(false); }
+    } catch (error) {
+  toast.error(error?.response?.data?.detail || "Could not add product");
+} finally { setSaving(false); }
   };
 
   const changeStatus = async (num, status) => {

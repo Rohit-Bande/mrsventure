@@ -137,7 +137,7 @@ export const INSTAGRAM_GRID = [
   IMG + "15e88183c3e824da8ac1e504a3a86d0740c95db3a63d1a91a61901bde8c42983.jpeg",
   IMG + "519f020cf35088d661f9ee178e791eab44e37477281201e09117d2f009df39ac.jpeg",
   IMG + "df69b14867f80381be8b64d818b33b7f9c80211ea996d8fcaeb3a209bba819e9.jpeg",
-  IMG + "236253ce0dcb36c57f9e3785cf26c99a0a9acaff680eb363cfa4ee9f097bf065.jpeg",
+  "/images/field/zar.jpeg",
   IMG + "f8b4fdd93d1a6c4ca0bfd101b418d219c571c99b973fae752fcff61e89e2372b.jpeg",
 ];
 

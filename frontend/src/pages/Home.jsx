@@ -144,7 +144,7 @@ useEffect(() => {
           <div className={`${CONTAINER} grid lg:grid-cols-2 gap-10 lg:gap-16 items-center`}>
             <Reveal className="relative">
               <div className="grid grid-cols-2 gap-4">
-                <img src={flagship.images?.[0]} alt={flagship.name} className="col-span-2 rounded-3xl object-cover aspect-[11/11] shadow-[0_20px_50px_rgba(13,59,46,0.12)]" />
+                <img src="/images/field/Home-honey.jpeg" alt="Madhulogy honeycomb" className="col-span-2 rounded-3xl object-cover aspect-[11/11] shadow-[0_20px_50px_rgba(13,59,46,0.12)]" />
                 <img src={HONEY_500_IMAGE} alt="MADHULOGY honey" className="rounded-2xl object-cover aspect-square" />
                 <img src={LIFESTYLE_IMAGE} alt="Honey ritual" className="rounded-2xl object-cover aspect-square" />
               </div>
